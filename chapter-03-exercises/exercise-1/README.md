@@ -3,6 +3,7 @@ In this exercise you'll practice using git to clone and edit repositories, as wi
 
 1. If you haven't already, configure your name and email address for your GitHub account using the terminal.
 git config
+
 2. If you haven't created your own version of this repository on GitHub (e.g., by forking it, or because it was created using GitHub Classroom), fork this repository to your own GitHub account by clicking the `fork` button on the GitHub interface.
 
 3. Using the terminal, clone **your version** of the repository to your machine (make sure you're in the desired directory on your terminal).
@@ -11,8 +12,8 @@ git clone
 4. On your machine, open up this file (`exercise-1/README.md`) in a text editor of your choice.
 
 5. In the `README.md` file, below these instructions, add an ordered list of what you ate for breakfast today.
-1. two cups of coffee 
-2. scrambled eggs
+  - two cups of coffee
+  - scrambled eggs
 
 6. Using your terminal, add and commit the changes you've made to your repository
 cd Documents/book-exercises/chapter-03-exercise/exercise-1
@@ -20,4 +21,5 @@ pwd
 git add .
 git commit -m"finished ch3 ex1"
 7. Push changes up to GitHub, and view them in your web browser. Make sure you are looking at the repository under _your_ account!
+
 git push
