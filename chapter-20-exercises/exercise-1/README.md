@@ -1,6 +1,6 @@
 # Exercise 1
 In this exercise, you'll practice working with branches, including **merging** changes between them.
-
+## Random practice Title
 To complete the exercise, follow the below steps:
 
 1. Clone _this_ exercise repository.
