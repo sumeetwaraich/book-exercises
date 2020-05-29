@@ -1,6 +1,6 @@
 # server.R
 library(dplyr)
-rm(list = ls())
+
 # Read in data
 source('./scripts/build_map.R')
 source('./scripts/build_scatter.R')
@@ -16,8 +16,12 @@ joined_data <- joined_data %>% mutate(ratio = votes/population * 100000)
 # Define your shiny server in which you...
   server <- function(input, output) {
   # Render a plotly object that returns your map
-  output$
+  output$map <- renderPlotly({
+    return(build_map(joined_data, input$mapvar))
+  })
   
   # Render a plotly object that returns your scatter plot
-  
+  output$scatter <- renderPlotly({
+    return(build_map(joined_data, input$search))
+  })
 }  
